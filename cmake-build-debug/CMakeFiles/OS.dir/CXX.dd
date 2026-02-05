@@ -1,0 +1,55 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/OS.dir/src/process/PCBpriochain.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/sys/sys.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/process/PCBclockchain.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/process/deadlock.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/memory/VMmanager.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/process/PCBchain.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/user/userManager.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/file/virtualinode.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/file/fBlockManager.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/file/fileSystem.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/file/inodeManager.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/file/directory_inode.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/file/fileManager.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/file/fdtable.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/mkdir.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/cd.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/append.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/edit.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/read.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/login.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/commandPharser.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/shell.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/show.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/final_test.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/Open.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/rm.cpp.obj: dyndep
+
+build CMakeFiles/OS.dir/src/shell/command/back.cpp.obj: dyndep
+

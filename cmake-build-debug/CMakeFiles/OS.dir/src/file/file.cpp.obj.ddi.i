@@ -1,0 +1,5 @@
+# 0 "C:/OS/src/file/file.cpp"
+# 1 "C:\\OS\\cmake-build-debug//"
+# 0 "<built-in>"
+# 0 "<command-line>"
+# 1 "C:/OS/src/file/file.cpp"
