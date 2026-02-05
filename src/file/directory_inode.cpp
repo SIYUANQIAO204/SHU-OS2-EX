@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 // Created by qiao on 25-12-28.
 //
@@ -78,4 +79,86 @@ namespace file{
         }
     }
 
+=======
+//
+// Created by qiao on 25-12-28.
+//
+
+#include "directory_inode.h"
+#include "fileSystem.h"
+#include "iostream"
+namespace file{
+    int directory_inode::addInode(std::string name, std::shared_ptr<inode> node) {
+        if (file_system.expired()) {
+            std::cerr << "inode expired\n";
+        }
+        auto sp = file_system.lock();
+        sp->addInode(node);
+        dec.push_back(Dentry(name,node));
+        size++;
+        return 1;
+    }
+
+    std::optional<std::vector<int>> directory_inode::deleteInode(std::string delete_name) {
+        if(ref_count > 1) return std::nullopt;
+        if(delete_name == name)
+        {
+            for(auto p : dec)
+            {
+                auto sp = p.inode.lock();
+                sp->link();
+                auto temp_buffer = sp->deleteInode(p.name);
+                if(temp_buffer == std::nullopt)
+                {
+                    return std::nullopt;
+                }
+                else if((int) temp_buffer->size() == 0) continue;
+                auto fsys = file_system.lock();
+                fsys->getAvailableBlock(*temp_buffer);
+            }
+            auto sp = file_system.lock();
+            sp->deleteINode(inode_id);
+            return {};
+        }
+        else{
+            for(int i = 0; i < size;i++){
+                auto p = dec[i];
+                if(p.name == delete_name)
+                {
+                    auto sp = p.inode.lock();
+                    auto fsys = file_system.lock();
+                    auto temp_buffer = sp->deleteInode(p.name);
+                    if(temp_buffer == std::nullopt)
+                    {
+                        return std::nullopt;
+                    }
+                    fsys->getAvailableBlock(*temp_buffer);
+                    dec.erase(dec.begin()+i);
+                    return {};
+                }
+            }
+            return std::nullopt;
+        }
+    }
+
+    std::shared_ptr<inode> directory_inode::openFile(std::string name) {
+        for(const auto& p:dec)
+        {
+            if(p.name == name) {
+                if (p.inode.expired()) {
+                    std::cerr << "inode expired\n";
+                }
+                return p.inode.lock();
+            }
+        }
+        return nullptr;
+    }
+
+    void directory_inode::showInfo() {
+        for(auto p : dec){
+            std::cout<<p.name<<'\n';
+        }
+    }
+
+>>>>>>> 320bfbd07e519d91666d3598d3577053a0f562b8
 }

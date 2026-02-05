@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 // Created by qiao on 26-1-2.
 //
@@ -23,3 +24,30 @@ namespace shell {
 }
 
 #endif //OS_SHELL_H
+=======
+//
+// Created by qiao on 26-1-2.
+//
+
+#ifndef OS_SHELL_H
+#define OS_SHELL_H
+#include "commandPharser.h"
+namespace shell {
+    class shell {
+    private:
+        std::shared_ptr<user::user> cut_user;
+        std::shared_ptr<sys::sys> system;
+        std::shared_ptr<command::commandPharser> cmdPhatser;
+        int proecess;
+    public:
+        shell(std::shared_ptr<user::user> log_user, std::shared_ptr<sys::sys> sys1,int process) : cut_user(log_user), system(sys1), proecess(process){
+            cmdPhatser = std::make_shared<command::commandPharser>(cut_user,system,process);
+        }
+        ~shell() = default;
+        void update();
+        int run();
+    };
+}
+
+#endif //OS_SHELL_H
+>>>>>>> 320bfbd07e519d91666d3598d3577053a0f562b8
