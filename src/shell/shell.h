@@ -1,7 +1,7 @@
 
 //
 // Created by qiao on 26-1-2.
-//这是shell部分，理论上为整个项目的最顶层的面向用户的结构，
+//这是shell部分，理论上为整个项目的最顶层的面向用户的结构，包含了当前用户，系统以及指令编译器
 
 #ifndef OS_SHELL_H
 #define OS_SHELL_H
@@ -18,7 +18,7 @@ namespace shell {
             cmdPhatser = std::make_shared<command::commandPharser>(cut_user,system,process);
         }
         ~shell() = default;
-        void update();
+        void update();//用于更新系统的状态
         int run();
     };
 }
