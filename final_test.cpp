@@ -2,7 +2,7 @@
 //
 // Created by qiao on 26-1-2.
 //
-//本程序用于期末验收，对应shell编程的内容，默认用户为guest，需要以其他用户访问需要先进行登陆
+//本程序用于期末验收，对应shell编程的内容，默认用户为guest，需要以其他用户访问需要先进行登陆，也包含了文件管理
 #include "src/shell/shell.h"
 #include "src/VirtualProcess/VirtualProcess.h"
 #include "src/VirtualProcess/ProcessGenerater.h"
