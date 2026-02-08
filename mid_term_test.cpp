@@ -2,11 +2,15 @@
 #include "src/sys/sys.h"
 #include "src/VirtualProcess/VirtualProcess.h"
 #include "src/VirtualProcess/ProcessGenerater.h"
-/*
+/*本程序用于期中验收，内容包括进程调度，虚存访问以及资源请求及死锁避免
+ * 系统初始化由于调试等原因没写成函数，可以后续集成一下
+ * 进程都以时间片为基础的服务时间单位，有时钟轮转和优先队列两种策略
+ * 死锁避免采用银行家算法
  * 参数说明，设定块大小为1024，总共有64个块，最多支持4个并发线程，一共有四种资源，每种资源总量十个，进程总共有16个，平均分布在4个就绪队列中
+ *
 */
 int main() {
-    sys::sys* system =new sys::sys();
+    sys::sys* system =new sys::sys();//可以改智能指针
     for(int i = 0;i < 4;i++)
     {
         system->addResource(10);
@@ -26,11 +30,15 @@ int main() {
                              temp.max_needed, 0, temp.CPU);
     }
     //system->creatProcess(1,1,128*1024,1,64,Memory_Sat::LRU,std::vector(0,4),0);
+    //初始化结束，正式开始运行
     int choice;
     std::cout<<"1: VMtest and Process test\n2: DeadLock test\n";
     std::cin>>choice;
     if(choice == 1)
     {
+        /*为了方便展示，进程调度和会选取待处理进程最多的处理器
+         * 每次运行会给出当前的运行的进程编号，内存访问序列（包含是否命中）
+         * */
         int CPU = system->choosePCBchainWithMaxProcess();
         std::vector<int> opt_hit;
         while(!system->PCBchainEmpty(CPU))

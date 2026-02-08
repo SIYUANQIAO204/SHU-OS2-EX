@@ -4,6 +4,8 @@
 //
 /*
  写了三种用户类型，不过由于时间限制并没有给对应的访问权限做限制
+ 进入系统默认为Guest，需要进行登陆，给用户组预留了一定的接口
+ 可以在创建用户时设置主文件夹的用户路径
  */
 
 
@@ -42,7 +44,8 @@ namespace user {
         bool checkPasswd(const std::string& input) const {return input == password;}
         void changePasswd(std::string newPassWd) {password = newPassWd;}
         std::string getName() const {return userName;}
-        bool checkPremission(file::Permission premission, int owner) {
+        bool checkPremission(file::Permission premission, int owner)//不同的用户拥有不同的权限，文件权限定义在file.h中
+        {
             if(premission == file::Permission::PUBLIC) return true;
             else if(premission == file::Permission::PRIVATE)
             {
