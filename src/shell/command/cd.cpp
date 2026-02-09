@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 //
 // Created by qiao on 26-1-2.
-//
+//cd的实现
 
 #include "cd.h"
 namespace command{
@@ -37,44 +37,5 @@ namespace command{
         }
         return 1;
     }
-=======
-//
-// Created by qiao on 26-1-2.
-//
 
-#include "cd.h"
-namespace command{
-    int cd::execute() {
-        auto table = system->getFDTable(cmd_user->getUid());
-        if(kernel.empty()){
-            std::cout<<"参数错误，至少需要输入名字\n";
-            return -1;
-        }
-        std::string name = kernel[0];
-        std::string dir = cmd_user->getHomeDir();
-        int sit = 1;
-        if((int) kernel.size() >= 2){
-            dir += kernel[1];
-            sit = table->openNewFile(dir,2);
-        }
-        if(sit == -1){
-            return -1;
-        }
-        sit = table->createFile(system->getNewFileID(), file::InodeType::VIRTUAL,name);
-        if(sit == -1){
-            return -1;
-        }
-        table->openFile(name,3);
-        if((int) kernel.size() >= 3)
-        {
-            if(kernel[2] == "private"){
-                table->getFile()->getInode()->setPremission(file::Permission::PRIVATE);
-            }
-            else if(kernel[2] == "public"){
-                table->getFile()->getInode()->setPremission(file::Permission::PUBLIC);
-            }
-        }
-        return 1;
-    }
->>>>>>> 320bfbd07e519d91666d3598d3577053a0f562b8
 }
