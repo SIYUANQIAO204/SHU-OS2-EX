@@ -7,6 +7,7 @@
 
 
 
+
 # 1 "C:/OS/src/file/fileSystem.h" 1
 
 
@@ -14,13 +15,9 @@
 
 
 
+
 # 1 "C:/OS/src/file/inode.h" 1
-
-
-
-
-
-
+# 9 "C:/OS/src/file/inode.h"
        
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cstring" 1 3
@@ -595,7 +592,7 @@ namespace std
 
 }
 }
-# 10 "C:/OS/src/file/inode.h" 2
+# 12 "C:/OS/src/file/inode.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/string" 1 3
 # 40 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/string" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/requires_hosted.h" 1 3
@@ -31960,7 +31957,7 @@ namespace std
     }
 
 }
-# 11 "C:/OS/src/file/inode.h" 2
+# 13 "C:/OS/src/file/inode.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 1 3
 # 70 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_relops.h" 1 3
@@ -32097,7 +32094,7 @@ namespace std
 # 237 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 
 }
-# 12 "C:/OS/src/file/inode.h" 2
+# 14 "C:/OS/src/file/inode.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 1 3
 # 67 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_uninitialized.h" 1 3
@@ -37056,7 +37053,7 @@ namespace std
     }
 
 }
-# 13 "C:/OS/src/file/inode.h" 2
+# 15 "C:/OS/src/file/inode.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 1 3
 # 68 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_tempbuf.h" 1 3
@@ -60478,7 +60475,7 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 174 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 2 3
-# 14 "C:/OS/src/file/inode.h" 2
+# 16 "C:/OS/src/file/inode.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional" 1 3
 # 40 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/version.h" 1 3
@@ -61893,8 +61890,9 @@ namespace std
 
 
 }
-# 15 "C:/OS/src/file/inode.h" 2
+# 17 "C:/OS/src/file/inode.h" 2
 # 1 "C:/OS/src/file/fsconst.h" 1
+
 
 
 
@@ -61903,13 +61901,13 @@ namespace std
 
        
 
-# 8 "C:/OS/src/file/fsconst.h"
+# 9 "C:/OS/src/file/fsconst.h"
 namespace file{
     constexpr int DIRECT_CNT = 8;
     constexpr int PTRS_PER_BLOCK = 2;
     constexpr int sysfBlockNum = 1024;
 }
-# 16 "C:/OS/src/file/inode.h" 2
+# 18 "C:/OS/src/file/inode.h" 2
 namespace file{
     enum class InodeType {
         VIRTUAL,
@@ -61991,14 +61989,15 @@ namespace file{
         virtual int addInode(std::string name, std::shared_ptr<inode> node) = 0;
         virtual std::optional<std::vector<int>> deleteInode(std::string delete_name) = 0;
         virtual std::shared_ptr<inode> openFile(std::string name) = 0;
+
         void link() {ref_count++;}
         void unlink() {ref_count++;}
         virtual void showInfo() = 0;
     };
 }
-# 8 "C:/OS/src/file/fileSystem.h" 2
+# 9 "C:/OS/src/file/fileSystem.h" 2
 # 1 "C:/OS/src/file/fBlockManager.h" 1
-# 10 "C:/OS/src/file/fBlockManager.h"
+# 11 "C:/OS/src/file/fBlockManager.h"
        
 namespace file {
 
@@ -62026,17 +62025,12 @@ namespace file {
         void getAvailableBlock(std::vector<int> block_release);
     };
 }
-# 9 "C:/OS/src/file/fileSystem.h" 2
+# 10 "C:/OS/src/file/fileSystem.h" 2
 
 # 1 "C:/OS/src/file/inodeManager.h" 1
-
-
-
-
-
-
-
+# 9 "C:/OS/src/file/inodeManager.h"
 # 1 "C:/OS/src/file/virtualinode.h" 1
+
 
 
 
@@ -62066,7 +62060,7 @@ namespace file {
         void showInfo() override;
     };
 }
-# 9 "C:/OS/src/file/inodeManager.h" 2
+# 10 "C:/OS/src/file/inodeManager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 1 3
 # 43 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unordered_map.h" 1 3
@@ -68273,8 +68267,9 @@ namespace std
     }
 
 }
-# 10 "C:/OS/src/file/inodeManager.h" 2
+# 11 "C:/OS/src/file/inodeManager.h" 2
 # 1 "C:/OS/src/file/directory_inode.h" 1
+
 
 
 
@@ -68284,7 +68279,7 @@ namespace std
        
 
 
-# 9 "C:/OS/src/file/directory_inode.h"
+# 10 "C:/OS/src/file/directory_inode.h"
 namespace file {
     class directory_inode : public inode {
     public:
@@ -68303,7 +68298,7 @@ namespace file {
         void showInfo() override;
     };
 }
-# 11 "C:/OS/src/file/inodeManager.h" 2
+# 12 "C:/OS/src/file/inodeManager.h" 2
 namespace file {
     class inodeManager {
     private:
@@ -68331,7 +68326,7 @@ namespace file {
         int addInode(std::shared_ptr<inode> node);
     };
 }
-# 11 "C:/OS/src/file/fileSystem.h" 2
+# 12 "C:/OS/src/file/fileSystem.h" 2
        
 namespace file {
     class fileSystem : public std::enable_shared_from_this<fileSystem> {
@@ -68341,6 +68336,7 @@ namespace file {
         std::shared_ptr<inode> root;
         int file_counter;
     public:
+
         void bar(std::shared_ptr<fileSystem> p) {}
         void foo() {
             std::shared_ptr<fileSystem> self = shared_from_this();
@@ -68354,6 +68350,7 @@ namespace file {
 
         }
         ~fileSystem() = default;
+
         int read_data(int idx,int pos);
         std::optional<std::vector<int>> read_data(int idx, int beg, int ed);
         void write(int idx,int beg,int ed, std::vector<int> data,int data_beg);
@@ -68371,7 +68368,7 @@ namespace file {
         std::shared_ptr<inode> getRoot() {return root;}
     };
 }
-# 6 "C:/OS/src/file/fileSystem.cpp" 2
+# 7 "C:/OS/src/file/fileSystem.cpp" 2
 namespace file{
     int fileSystem::read_data(int idx, int pos) {
         return file_block_Manager->read(idx,pos);

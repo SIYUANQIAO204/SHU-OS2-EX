@@ -7,6 +7,7 @@
 
 
 
+
 # 1 "C:/OS/src/file/fileManager.h" 1
 
 
@@ -14,7 +15,9 @@
 
 
 
+
 # 1 "C:/OS/src/file/fdtable.h" 1
+
 
 
 
@@ -6650,9 +6653,10 @@ namespace std
 # 237 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 
 }
-# 8 "C:/OS/src/file/fdtable.h" 2
+# 9 "C:/OS/src/file/fdtable.h" 2
 
 # 1 "C:/OS/src/file/file.h" 1
+
 
 
 
@@ -7325,7 +7329,7 @@ typedef off32_t off_t;
 
 #pragma pack(pop)
 # 9 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/x86_64-w64-mingw32/include/fcntl.h" 2 3
-# 10 "C:/OS/src/file/file.h" 2
+# 11 "C:/OS/src/file/file.h" 2
 
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/string" 1 3
@@ -32193,7 +32197,7 @@ namespace std
     }
 
 }
-# 13 "C:/OS/src/file/file.h" 2
+# 14 "C:/OS/src/file/file.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 1 3
 # 68 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_tempbuf.h" 1 3
@@ -56611,8 +56615,9 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 174 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 2 3
-# 14 "C:/OS/src/file/file.h" 2
+# 15 "C:/OS/src/file/file.h" 2
 # 1 "C:/OS/src/file/virtualinode.h" 1
+
 
 
 
@@ -56621,12 +56626,7 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
        
 # 1 "C:/OS/src/file/inode.h" 1
-
-
-
-
-
-
+# 9 "C:/OS/src/file/inode.h"
        
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cstring" 1 3
@@ -56690,7 +56690,7 @@ namespace std
 
 }
 }
-# 10 "C:/OS/src/file/inode.h" 2
+# 12 "C:/OS/src/file/inode.h" 2
 
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 1 3
@@ -60654,7 +60654,7 @@ namespace std
     }
 
 }
-# 13 "C:/OS/src/file/inode.h" 2
+# 15 "C:/OS/src/file/inode.h" 2
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional" 1 3
 # 40 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional" 3
@@ -62070,8 +62070,9 @@ namespace std
 
 
 }
-# 15 "C:/OS/src/file/inode.h" 2
+# 17 "C:/OS/src/file/inode.h" 2
 # 1 "C:/OS/src/file/fsconst.h" 1
+
 
 
 
@@ -62080,13 +62081,13 @@ namespace std
 
        
 
-# 8 "C:/OS/src/file/fsconst.h"
+# 9 "C:/OS/src/file/fsconst.h"
 namespace file{
     constexpr int DIRECT_CNT = 8;
     constexpr int PTRS_PER_BLOCK = 2;
     constexpr int sysfBlockNum = 1024;
 }
-# 16 "C:/OS/src/file/inode.h" 2
+# 18 "C:/OS/src/file/inode.h" 2
 namespace file{
     enum class InodeType {
         VIRTUAL,
@@ -62168,12 +62169,13 @@ namespace file{
         virtual int addInode(std::string name, std::shared_ptr<inode> node) = 0;
         virtual std::optional<std::vector<int>> deleteInode(std::string delete_name) = 0;
         virtual std::shared_ptr<inode> openFile(std::string name) = 0;
+
         void link() {ref_count++;}
         void unlink() {ref_count++;}
         virtual void showInfo() = 0;
     };
 }
-# 9 "C:/OS/src/file/virtualinode.h" 2
+# 10 "C:/OS/src/file/virtualinode.h" 2
 
 
 
@@ -62195,8 +62197,9 @@ namespace file {
         void showInfo() override;
     };
 }
-# 15 "C:/OS/src/file/file.h" 2
+# 16 "C:/OS/src/file/file.h" 2
 # 1 "C:/OS/src/file/directory_inode.h" 1
+
 
 
 
@@ -62223,7 +62226,7 @@ namespace file {
         void showInfo() override;
     };
 }
-# 16 "C:/OS/src/file/file.h" 2
+# 17 "C:/OS/src/file/file.h" 2
 
 namespace file{
     class file : public std::enable_shared_from_this<file> {
@@ -62304,17 +62307,11 @@ namespace file{
     };
 
 }
-# 10 "C:/OS/src/file/fdtable.h" 2
+# 11 "C:/OS/src/file/fdtable.h" 2
 # 1 "C:/OS/src/file/fileSystem.h" 1
-
-
-
-
-
-
-
+# 9 "C:/OS/src/file/fileSystem.h"
 # 1 "C:/OS/src/file/fBlockManager.h" 1
-# 10 "C:/OS/src/file/fBlockManager.h"
+# 11 "C:/OS/src/file/fBlockManager.h"
        
 namespace file {
 
@@ -62342,10 +62339,10 @@ namespace file {
         void getAvailableBlock(std::vector<int> block_release);
     };
 }
-# 9 "C:/OS/src/file/fileSystem.h" 2
+# 10 "C:/OS/src/file/fileSystem.h" 2
 
 # 1 "C:/OS/src/file/inodeManager.h" 1
-# 9 "C:/OS/src/file/inodeManager.h"
+# 10 "C:/OS/src/file/inodeManager.h"
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 1 3
 # 43 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unordered_map.h" 1 3
@@ -68552,10 +68549,10 @@ namespace std
     }
 
 }
-# 10 "C:/OS/src/file/inodeManager.h" 2
+# 11 "C:/OS/src/file/inodeManager.h" 2
 
 
-# 11 "C:/OS/src/file/inodeManager.h"
+# 12 "C:/OS/src/file/inodeManager.h"
 namespace file {
     class inodeManager {
     private:
@@ -68583,7 +68580,7 @@ namespace file {
         int addInode(std::shared_ptr<inode> node);
     };
 }
-# 11 "C:/OS/src/file/fileSystem.h" 2
+# 12 "C:/OS/src/file/fileSystem.h" 2
        
 namespace file {
     class fileSystem : public std::enable_shared_from_this<fileSystem> {
@@ -68593,6 +68590,7 @@ namespace file {
         std::shared_ptr<inode> root;
         int file_counter;
     public:
+
         void bar(std::shared_ptr<fileSystem> p) {}
         void foo() {
             std::shared_ptr<fileSystem> self = shared_from_this();
@@ -68606,6 +68604,7 @@ namespace file {
 
         }
         ~fileSystem() = default;
+
         int read_data(int idx,int pos);
         std::optional<std::vector<int>> read_data(int idx, int beg, int ed);
         void write(int idx,int beg,int ed, std::vector<int> data,int data_beg);
@@ -68623,15 +68622,10 @@ namespace file {
         std::shared_ptr<inode> getRoot() {return root;}
     };
 }
-# 11 "C:/OS/src/file/fdtable.h" 2
+# 12 "C:/OS/src/file/fdtable.h" 2
        
 # 1 "C:/OS/src/user/user.h" 1
-
-
-
-
-
-
+# 14 "C:/OS/src/user/user.h"
        
 
 
@@ -70686,9 +70680,9 @@ namespace std
 # 87 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 3
 
 }
-# 12 "C:/OS/src/user/user.h" 2
+# 19 "C:/OS/src/user/user.h" 2
 
-# 12 "C:/OS/src/user/user.h"
+# 19 "C:/OS/src/user/user.h"
 namespace user {
 
     enum class UserClass{
@@ -70717,7 +70711,8 @@ namespace user {
         bool checkPasswd(const std::string& input) const {return input == password;}
         void changePasswd(std::string newPassWd) {password = newPassWd;}
         std::string getName() const {return userName;}
-        bool checkPremission(file::Permission premission, int owner) {
+        bool checkPremission(file::Permission premission, int owner)
+        {
             if(premission == file::Permission::PUBLIC) return true;
             else if(premission == file::Permission::PRIVATE)
             {
@@ -70742,7 +70737,7 @@ namespace user {
         }
     };
 }
-# 13 "C:/OS/src/file/fdtable.h" 2
+# 14 "C:/OS/src/file/fdtable.h" 2
 namespace file {
     class fdtable {
     private:
@@ -70768,7 +70763,7 @@ namespace file {
         int back();
     };
 }
-# 8 "C:/OS/src/file/fileManager.h" 2
+# 9 "C:/OS/src/file/fileManager.h" 2
 namespace file {
     class fileManager {
     private:
@@ -70783,7 +70778,7 @@ namespace file {
         int deleteFDTable(int uid);
     };
 }
-# 6 "C:/OS/src/file/fileManager.cpp" 2
+# 7 "C:/OS/src/file/fileManager.cpp" 2
 namespace file{
     int fileManager::createFDTable(std::shared_ptr<user::user> login_user, std::shared_ptr<fileSystem> fsys) {
         uid2idx[login_user->getUid()] = (int) folder.size();
@@ -70818,4 +70813,5 @@ namespace file{
         auto it = uid2idx.find(uid);
         return (it != uid2idx.end()) ? it->second : -1;
     }
+
 }

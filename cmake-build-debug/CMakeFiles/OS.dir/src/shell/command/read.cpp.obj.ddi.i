@@ -7,15 +7,11 @@
 
 
 
+
 # 1 "C:/OS/src/shell/command/read.h" 1
-# 9 "C:/OS/src/shell/command/read.h"
+# 10 "C:/OS/src/shell/command/read.h"
 # 1 "C:/OS/src/shell/command.h" 1
-
-
-
-
-
-
+# 10 "C:/OS/src/shell/command.h"
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 1 3
 # 69 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h" 1 3
@@ -6645,7 +6641,7 @@ namespace std
 # 237 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 
 }
-# 8 "C:/OS/src/shell/command.h" 2
+# 11 "C:/OS/src/shell/command.h" 2
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 1 3
 # 65 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 3
@@ -56305,7 +56301,7 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 174 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 2 3
-# 10 "C:/OS/src/shell/command.h" 2
+# 13 "C:/OS/src/shell/command.h" 2
 
 # 1 "C:/OS/src/sys/sys.h" 1
 
@@ -56314,8 +56310,10 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 
 
+
        
 # 1 "C:/OS/src/memory/VMmanager.h" 1
+
 
 
 
@@ -58373,7 +58371,7 @@ namespace std
 # 87 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 3
 
 }
-# 11 "C:/OS/src/memory/VMmanager.h" 2
+# 12 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 1 3
 # 68 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_vector.h" 1 3
@@ -62335,16 +62333,11 @@ namespace std
     }
 
 }
-# 12 "C:/OS/src/memory/VMmanager.h" 2
+# 13 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/OS/src/memory/memory.h" 1
+# 9 "C:/OS/src/memory/memory.h"
 
-
-
-
-
-
-
-# 7 "C:/OS/src/memory/memory.h"
+# 9 "C:/OS/src/memory/memory.h"
 namespace memory{
     class VM{
     private:
@@ -62388,14 +62381,9 @@ namespace memory{
     };
 
 }
-# 13 "C:/OS/src/memory/VMmanager.h" 2
+# 14 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/OS/src/memory/Blocks.h" 1
-
-
-
-
-
-
+# 10 "C:/OS/src/memory/Blocks.h"
        
 
 
@@ -62432,9 +62420,9 @@ namespace memory{
         virtual void printStratrgy () const {};
     };
 }
-# 14 "C:/OS/src/memory/VMmanager.h" 2
+# 15 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/OS/src/memory/FIFOBlocks.h" 1
-# 10 "C:/OS/src/memory/FIFOBlocks.h"
+# 11 "C:/OS/src/memory/FIFOBlocks.h"
        
 namespace memory {
 class FIFOBlocks: public Blocks {
@@ -62469,7 +62457,7 @@ class FIFOBlocks: public Blocks {
 
     };
 }
-# 15 "C:/OS/src/memory/VMmanager.h" 2
+# 16 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/map" 1 3
 # 64 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/map" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_tree.h" 1 3
@@ -67428,7 +67416,7 @@ namespace std
     }
 
 }
-# 16 "C:/OS/src/memory/VMmanager.h" 2
+# 17 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 1 3
 # 43 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unordered_map.h" 1 3
@@ -73515,11 +73503,13 @@ namespace std
     }
 
 }
-# 17 "C:/OS/src/memory/VMmanager.h" 2
+# 18 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/OS/src/memory/OPT.h" 1
 
 
 
+
+       
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/algorithm" 1 3
 # 63 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/algorithm" 3
@@ -83429,7 +83419,7 @@ lexicographical_compare(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _
 
 }
 # 90 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/algorithm" 2 3
-# 6 "C:/OS/src/memory/OPT.h" 2
+# 8 "C:/OS/src/memory/OPT.h" 2
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/limits" 1 3
 # 44 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/limits" 3
@@ -85074,10 +85064,10 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
 }
 # 2239 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/limits" 3
 #pragma GCC diagnostic pop
-# 8 "C:/OS/src/memory/OPT.h" 2
+# 10 "C:/OS/src/memory/OPT.h" 2
        
 
-# 9 "C:/OS/src/memory/OPT.h"
+# 11 "C:/OS/src/memory/OPT.h"
 namespace memory {
     inline int OPTPageHitCount(const std::vector<int> &pages,
                         int virtualPageCount,
@@ -85130,7 +85120,7 @@ namespace memory {
         return hitCount;
     }
 }
-# 18 "C:/OS/src/memory/VMmanager.h" 2
+# 19 "C:/OS/src/memory/VMmanager.h" 2
 namespace memory {
     class VMmanager {
     private:
@@ -85199,16 +85189,11 @@ namespace memory {
         std::pair<int,int> getProcessBnumAndVMnum(int process);
     };
 }
-# 9 "C:/OS/src/sys/sys.h" 2
+# 10 "C:/OS/src/sys/sys.h" 2
 # 1 "C:/OS/src/process/deadlock.h" 1
-# 9 "C:/OS/src/process/deadlock.h"
+# 14 "C:/OS/src/process/deadlock.h"
 # 1 "C:/OS/src/resources/resources.h" 1
-
-
-
-
-
-
+# 11 "C:/OS/src/resources/resources.h"
        
 
 
@@ -85280,8 +85265,7 @@ namespace resource{
         int getopy() const {return opied;}
     };
 }
-# 10 "C:/OS/src/process/deadlock.h" 2
-
+# 15 "C:/OS/src/process/deadlock.h" 2
 
 
 namespace resource {
@@ -85323,12 +85307,14 @@ namespace resource {
 
     };
 }
-# 10 "C:/OS/src/sys/sys.h" 2
+# 11 "C:/OS/src/sys/sys.h" 2
 # 1 "C:/OS/src/process/PCBchain.h" 1
-
-
-
+# 10 "C:/OS/src/process/PCBchain.h"
 # 1 "C:/OS/src/process/PCB.h" 1
+
+
+
+
        
 
 
@@ -86530,9 +86516,9 @@ namespace std
 
 #pragma GCC diagnostic pop
 # 1256 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/sstream" 2 3
-# 7 "C:/OS/src/process/PCB.h" 2
+# 11 "C:/OS/src/process/PCB.h" 2
 
-# 7 "C:/OS/src/process/PCB.h"
+# 11 "C:/OS/src/process/PCB.h"
 enum class ProcessState {
     NEW,
     WAIT,
@@ -86559,9 +86545,9 @@ namespace pro {
         int timetoprocess;
     public:
         PCB(int id, int prio, int TTP, int arrival, int memory, int UID=0, PCB *nextPCB = 
-# 32 "C:/OS/src/process/PCB.h" 3 4
+# 36 "C:/OS/src/process/PCB.h" 3 4
                                                                                          __null
-# 32 "C:/OS/src/process/PCB.h"
+# 36 "C:/OS/src/process/PCB.h"
                                                                                              , int parent = 0)
                 : pid(id), priority(prio), ppid(parent), arrivaltime(arrival), memory(memory), uid(UID), timetoprocess(TTP), next(nextPCB), state(ProcessState::NEW), programCounter(0), registers(8, 0),max_registers(8,0) {};
 
@@ -86584,7 +86570,6 @@ namespace pro {
         void setPriority(int p) { priority = p; }
 
         int getArrivalTime(int t) { return arrivaltime;}
-
 
         void setState(ProcessState newState) {
             state = newState;
@@ -86702,7 +86687,7 @@ namespace pro {
         }
     };
 }
-# 5 "C:/OS/src/process/PCBchain.h" 2
+# 11 "C:/OS/src/process/PCBchain.h" 2
 
 
        
@@ -86739,32 +86724,17 @@ namespace pro{
         void setHeadProcessUID(int user) const { head->setUID(user); }
     };
 }
-# 11 "C:/OS/src/sys/sys.h" 2
+# 12 "C:/OS/src/sys/sys.h" 2
 
 # 1 "C:/OS/src/user/userManager.h" 1
-
-
-
-
-
-
+# 10 "C:/OS/src/user/userManager.h"
        
 # 1 "C:/OS/src/user/user.h" 1
-
-
-
-
-
-
+# 14 "C:/OS/src/user/user.h"
        
 
 # 1 "C:/OS/src/file/inode.h" 1
-
-
-
-
-
-
+# 9 "C:/OS/src/file/inode.h"
        
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cstring" 1 3
@@ -86968,7 +86938,7 @@ namespace std
 
 }
 }
-# 10 "C:/OS/src/file/inode.h" 2
+# 12 "C:/OS/src/file/inode.h" 2
 
 
 
@@ -88106,8 +88076,9 @@ namespace std
 
 
 }
-# 15 "C:/OS/src/file/inode.h" 2
+# 17 "C:/OS/src/file/inode.h" 2
 # 1 "C:/OS/src/file/fsconst.h" 1
+
 
 
 
@@ -88116,13 +88087,13 @@ namespace std
 
        
 
-# 8 "C:/OS/src/file/fsconst.h"
+# 9 "C:/OS/src/file/fsconst.h"
 namespace file{
     constexpr int DIRECT_CNT = 8;
     constexpr int PTRS_PER_BLOCK = 2;
     constexpr int sysfBlockNum = 1024;
 }
-# 16 "C:/OS/src/file/inode.h" 2
+# 18 "C:/OS/src/file/inode.h" 2
 namespace file{
     enum class InodeType {
         VIRTUAL,
@@ -88204,12 +88175,13 @@ namespace file{
         virtual int addInode(std::string name, std::shared_ptr<inode> node) = 0;
         virtual std::optional<std::vector<int>> deleteInode(std::string delete_name) = 0;
         virtual std::shared_ptr<inode> openFile(std::string name) = 0;
+
         void link() {ref_count++;}
         void unlink() {ref_count++;}
         virtual void showInfo() = 0;
     };
 }
-# 10 "C:/OS/src/user/user.h" 2
+# 17 "C:/OS/src/user/user.h" 2
 
 
 namespace user {
@@ -88240,7 +88212,8 @@ namespace user {
         bool checkPasswd(const std::string& input) const {return input == password;}
         void changePasswd(std::string newPassWd) {password = newPassWd;}
         std::string getName() const {return userName;}
-        bool checkPremission(file::Permission premission, int owner) {
+        bool checkPremission(file::Permission premission, int owner)
+        {
             if(premission == file::Permission::PUBLIC) return true;
             else if(premission == file::Permission::PRIVATE)
             {
@@ -88265,7 +88238,7 @@ namespace user {
         }
     };
 }
-# 9 "C:/OS/src/user/userManager.h" 2
+# 12 "C:/OS/src/user/userManager.h" 2
 
 
 
@@ -88306,7 +88279,7 @@ namespace user {
         std::shared_ptr<user> getUserByUid(int uid) const;
     };
 }
-# 13 "C:/OS/src/sys/sys.h" 2
+# 14 "C:/OS/src/sys/sys.h" 2
 # 1 "C:/OS/src/file/fileManager.h" 1
 
 
@@ -88314,9 +88287,11 @@ namespace user {
 
 
 
+
 # 1 "C:/OS/src/file/fdtable.h" 1
-# 9 "C:/OS/src/file/fdtable.h"
+# 10 "C:/OS/src/file/fdtable.h"
 # 1 "C:/OS/src/file/file.h" 1
+
 
 
 
@@ -88483,12 +88458,13 @@ __attribute__ ((__dllimport__)) char* __attribute__((__cdecl__)) _getcwd (char*,
 
 #pragma pack(pop)
 # 9 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/x86_64-w64-mingw32/include/fcntl.h" 2 3
-# 10 "C:/OS/src/file/file.h" 2
+# 11 "C:/OS/src/file/file.h" 2
 
 
 
 
 # 1 "C:/OS/src/file/virtualinode.h" 1
+
 
 
 
@@ -88501,7 +88477,7 @@ __attribute__ ((__dllimport__)) char* __attribute__((__cdecl__)) _getcwd (char*,
 
 
 
-# 12 "C:/OS/src/file/virtualinode.h"
+# 13 "C:/OS/src/file/virtualinode.h"
 namespace file {
     class virtualinode : public inode {
     public:
@@ -88520,8 +88496,9 @@ namespace file {
         void showInfo() override;
     };
 }
-# 15 "C:/OS/src/file/file.h" 2
+# 16 "C:/OS/src/file/file.h" 2
 # 1 "C:/OS/src/file/directory_inode.h" 1
+
 
 
 
@@ -88548,7 +88525,7 @@ namespace file {
         void showInfo() override;
     };
 }
-# 16 "C:/OS/src/file/file.h" 2
+# 17 "C:/OS/src/file/file.h" 2
 
 namespace file{
     class file : public std::enable_shared_from_this<file> {
@@ -88629,17 +88606,11 @@ namespace file{
     };
 
 }
-# 10 "C:/OS/src/file/fdtable.h" 2
+# 11 "C:/OS/src/file/fdtable.h" 2
 # 1 "C:/OS/src/file/fileSystem.h" 1
-
-
-
-
-
-
-
+# 9 "C:/OS/src/file/fileSystem.h"
 # 1 "C:/OS/src/file/fBlockManager.h" 1
-# 10 "C:/OS/src/file/fBlockManager.h"
+# 11 "C:/OS/src/file/fBlockManager.h"
        
 namespace file {
 
@@ -88667,10 +88638,10 @@ namespace file {
         void getAvailableBlock(std::vector<int> block_release);
     };
 }
-# 9 "C:/OS/src/file/fileSystem.h" 2
+# 10 "C:/OS/src/file/fileSystem.h" 2
 
 # 1 "C:/OS/src/file/inodeManager.h" 1
-# 11 "C:/OS/src/file/inodeManager.h"
+# 12 "C:/OS/src/file/inodeManager.h"
 namespace file {
     class inodeManager {
     private:
@@ -88698,7 +88669,7 @@ namespace file {
         int addInode(std::shared_ptr<inode> node);
     };
 }
-# 11 "C:/OS/src/file/fileSystem.h" 2
+# 12 "C:/OS/src/file/fileSystem.h" 2
        
 namespace file {
     class fileSystem : public std::enable_shared_from_this<fileSystem> {
@@ -88708,6 +88679,7 @@ namespace file {
         std::shared_ptr<inode> root;
         int file_counter;
     public:
+
         void bar(std::shared_ptr<fileSystem> p) {}
         void foo() {
             std::shared_ptr<fileSystem> self = shared_from_this();
@@ -88721,6 +88693,7 @@ namespace file {
 
         }
         ~fileSystem() = default;
+
         int read_data(int idx,int pos);
         std::optional<std::vector<int>> read_data(int idx, int beg, int ed);
         void write(int idx,int beg,int ed, std::vector<int> data,int data_beg);
@@ -88738,7 +88711,7 @@ namespace file {
         std::shared_ptr<inode> getRoot() {return root;}
     };
 }
-# 11 "C:/OS/src/file/fdtable.h" 2
+# 12 "C:/OS/src/file/fdtable.h" 2
        
 
 namespace file {
@@ -88766,7 +88739,7 @@ namespace file {
         int back();
     };
 }
-# 8 "C:/OS/src/file/fileManager.h" 2
+# 9 "C:/OS/src/file/fileManager.h" 2
 namespace file {
     class fileManager {
     private:
@@ -88781,7 +88754,7 @@ namespace file {
         int deleteFDTable(int uid);
     };
 }
-# 14 "C:/OS/src/sys/sys.h" 2
+# 15 "C:/OS/src/sys/sys.h" 2
 
 
 
@@ -88789,8 +88762,10 @@ namespace sys {
     class sys : public std::enable_shared_from_this<sys> {
     private:
         int cuttime;
+
         int memorysize;
         int Blocksize;
+
         std::unique_ptr<memory::VMmanager> memoryManager;
         std::vector<std::unique_ptr<pro::PCBchain>> ProcessManager;
         std::vector<resource::resources> ResourcesManager;
@@ -88798,6 +88773,7 @@ namespace sys {
         user::userManager UserManager;
         std::shared_ptr<file::fileManager> FileManager;
         std::shared_ptr<file::fileSystem> file_system;
+
         std::shared_ptr<user::user> Administer;
     public:
         sys(int cut = 0, int memorize = 1024*64, int blocksize = 1024, std::vector<resource::resources> res = {} )
@@ -88864,7 +88840,7 @@ namespace sys {
     };
 
 }
-# 12 "C:/OS/src/shell/command.h" 2
+# 15 "C:/OS/src/shell/command.h" 2
        
 namespace command{
     class command{
@@ -88881,7 +88857,7 @@ namespace command{
         virtual int execute() = 0;
     };
 }
-# 10 "C:/OS/src/shell/command/read.h" 2
+# 11 "C:/OS/src/shell/command/read.h" 2
 namespace command {
     class read : public command {
     public:
@@ -88890,7 +88866,7 @@ namespace command {
         ~read() = default;
     };
 }
-# 6 "C:/OS/src/shell/command/read.cpp" 2
+# 7 "C:/OS/src/shell/command/read.cpp" 2
 namespace command{
     int read::execute() {
         auto table = system->getFDTable(cmd_user->getUid());

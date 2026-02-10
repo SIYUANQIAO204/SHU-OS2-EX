@@ -7,14 +7,16 @@
 
 
 
+
 # 1 "C:/OS/src/process/PCBclockchain.h" 1
-
-
-
-
-
-
+# 9 "C:/OS/src/process/PCBclockchain.h"
+# 1 "C:/OS/src/process/PCBchain.h" 1
+# 10 "C:/OS/src/process/PCBchain.h"
 # 1 "C:/OS/src/process/PCB.h" 1
+
+
+
+
        
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 1 3
 # 40 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 3
@@ -47758,7 +47760,7 @@ namespace std
 # 87 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 3
 
 }
-# 3 "C:/OS/src/process/PCB.h" 2
+# 7 "C:/OS/src/process/PCB.h" 2
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 1 3
 # 70 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
@@ -47896,7 +47898,7 @@ namespace std
 # 237 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 
 }
-# 5 "C:/OS/src/process/PCB.h" 2
+# 9 "C:/OS/src/process/PCB.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 1 3
 # 67 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_uninitialized.h" 1 3
@@ -52855,7 +52857,7 @@ namespace std
     }
 
 }
-# 6 "C:/OS/src/process/PCB.h" 2
+# 10 "C:/OS/src/process/PCB.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/sstream" 1 3
 # 57 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/sstream" 3
 namespace std
@@ -54050,9 +54052,9 @@ namespace std
 
 #pragma GCC diagnostic pop
 # 1256 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/sstream" 2 3
-# 7 "C:/OS/src/process/PCB.h" 2
+# 11 "C:/OS/src/process/PCB.h" 2
 
-# 7 "C:/OS/src/process/PCB.h"
+# 11 "C:/OS/src/process/PCB.h"
 enum class ProcessState {
     NEW,
     WAIT,
@@ -54079,9 +54081,9 @@ namespace pro {
         int timetoprocess;
     public:
         PCB(int id, int prio, int TTP, int arrival, int memory, int UID=0, PCB *nextPCB = 
-# 32 "C:/OS/src/process/PCB.h" 3 4
+# 36 "C:/OS/src/process/PCB.h" 3 4
                                                                                          __null
-# 32 "C:/OS/src/process/PCB.h"
+# 36 "C:/OS/src/process/PCB.h"
                                                                                              , int parent = 0)
                 : pid(id), priority(prio), ppid(parent), arrivaltime(arrival), memory(memory), uid(UID), timetoprocess(TTP), next(nextPCB), state(ProcessState::NEW), programCounter(0), registers(8, 0),max_registers(8,0) {};
 
@@ -54104,7 +54106,6 @@ namespace pro {
         void setPriority(int p) { priority = p; }
 
         int getArrivalTime(int t) { return arrivaltime;}
-
 
         void setState(ProcessState newState) {
             state = newState;
@@ -54222,12 +54223,7 @@ namespace pro {
         }
     };
 }
-# 8 "C:/OS/src/process/PCBclockchain.h" 2
-# 1 "C:/OS/src/process/PCBchain.h" 1
-
-
-
-
+# 11 "C:/OS/src/process/PCBchain.h" 2
 
 
        
@@ -54264,7 +54260,8 @@ namespace pro{
         void setHeadProcessUID(int user) const { head->setUID(user); }
     };
 }
-# 9 "C:/OS/src/process/PCBclockchain.h" 2
+# 10 "C:/OS/src/process/PCBclockchain.h" 2
+
        
 namespace pro {
     class PCBclockchain: public PCBchain {
@@ -54286,7 +54283,7 @@ namespace pro {
 
     };
 }
-# 6 "C:/OS/src/process/PCBclockchain.cpp" 2
+# 7 "C:/OS/src/process/PCBclockchain.cpp" 2
 
 namespace pro{
     void PCBclockchain::insertNewPCB(PCB* pcb) {
@@ -54330,7 +54327,8 @@ namespace pro{
             tail = head;
         }
 
-        if (cut->finishCheck()) {
+        if (cut->finishCheck())
+        {
             cut->setState(ProcessState::FINISHED);
             delete cut;
 

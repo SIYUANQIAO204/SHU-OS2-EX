@@ -7,7 +7,9 @@
 
 
 
+
 # 1 "C:/OS/src/memory/VMmanager.h" 1
+
 
 
 
@@ -56162,7 +56164,7 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 174 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 2 3
-# 10 "C:/OS/src/memory/VMmanager.h" 2
+# 11 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 1 3
 # 43 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ostream" 1 3
@@ -58211,7 +58213,7 @@ namespace std
 # 87 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 3
 
 }
-# 11 "C:/OS/src/memory/VMmanager.h" 2
+# 12 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 1 3
 # 68 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_vector.h" 1 3
@@ -62173,16 +62175,11 @@ namespace std
     }
 
 }
-# 12 "C:/OS/src/memory/VMmanager.h" 2
+# 13 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/OS/src/memory/memory.h" 1
+# 9 "C:/OS/src/memory/memory.h"
 
-
-
-
-
-
-
-# 7 "C:/OS/src/memory/memory.h"
+# 9 "C:/OS/src/memory/memory.h"
 namespace memory{
     class VM{
     private:
@@ -62226,14 +62223,9 @@ namespace memory{
     };
 
 }
-# 13 "C:/OS/src/memory/VMmanager.h" 2
+# 14 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/OS/src/memory/Blocks.h" 1
-
-
-
-
-
-
+# 10 "C:/OS/src/memory/Blocks.h"
        
 
 
@@ -62270,9 +62262,9 @@ namespace memory{
         virtual void printStratrgy () const {};
     };
 }
-# 14 "C:/OS/src/memory/VMmanager.h" 2
+# 15 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/OS/src/memory/FIFOBlocks.h" 1
-# 9 "C:/OS/src/memory/FIFOBlocks.h"
+# 10 "C:/OS/src/memory/FIFOBlocks.h"
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 1 3
 # 70 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_relops.h" 1 3
@@ -62411,10 +62403,10 @@ namespace std
 # 237 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 
 }
-# 10 "C:/OS/src/memory/FIFOBlocks.h" 2
+# 11 "C:/OS/src/memory/FIFOBlocks.h" 2
        
 
-# 11 "C:/OS/src/memory/FIFOBlocks.h"
+# 12 "C:/OS/src/memory/FIFOBlocks.h"
 namespace memory {
 class FIFOBlocks: public Blocks {
     public:
@@ -62448,7 +62440,7 @@ class FIFOBlocks: public Blocks {
 
     };
 }
-# 15 "C:/OS/src/memory/VMmanager.h" 2
+# 16 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/map" 1 3
 # 64 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/map" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_tree.h" 1 3
@@ -67407,7 +67399,7 @@ namespace std
     }
 
 }
-# 16 "C:/OS/src/memory/VMmanager.h" 2
+# 17 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 1 3
 # 43 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unordered_map.h" 1 3
@@ -73494,11 +73486,13 @@ namespace std
     }
 
 }
-# 17 "C:/OS/src/memory/VMmanager.h" 2
+# 18 "C:/OS/src/memory/VMmanager.h" 2
 # 1 "C:/OS/src/memory/OPT.h" 1
 
 
 
+
+       
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/algorithm" 1 3
 # 63 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/algorithm" 3
@@ -83408,7 +83402,7 @@ lexicographical_compare(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _
 
 }
 # 90 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/algorithm" 2 3
-# 6 "C:/OS/src/memory/OPT.h" 2
+# 8 "C:/OS/src/memory/OPT.h" 2
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/limits" 1 3
 # 44 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/limits" 3
@@ -85053,10 +85047,10 @@ __extension__ template<> struct numeric_limits<_Float128> { static constexpr boo
 }
 # 2239 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/limits" 3
 #pragma GCC diagnostic pop
-# 8 "C:/OS/src/memory/OPT.h" 2
+# 10 "C:/OS/src/memory/OPT.h" 2
        
 
-# 9 "C:/OS/src/memory/OPT.h"
+# 11 "C:/OS/src/memory/OPT.h"
 namespace memory {
     inline int OPTPageHitCount(const std::vector<int> &pages,
                         int virtualPageCount,
@@ -85109,7 +85103,7 @@ namespace memory {
         return hitCount;
     }
 }
-# 18 "C:/OS/src/memory/VMmanager.h" 2
+# 19 "C:/OS/src/memory/VMmanager.h" 2
 namespace memory {
     class VMmanager {
     private:
@@ -85178,8 +85172,9 @@ namespace memory {
         std::pair<int,int> getProcessBnumAndVMnum(int process);
     };
 }
-# 6 "C:/OS/src/memory/VMmanager.cpp" 2
+# 7 "C:/OS/src/memory/VMmanager.cpp" 2
 # 1 "C:/OS/src/memory/LRUBlocks.h" 1
+
 
 
 
@@ -85242,7 +85237,7 @@ namespace memory{
 
     };
 }
-# 7 "C:/OS/src/memory/VMmanager.cpp" 2
+# 8 "C:/OS/src/memory/VMmanager.cpp" 2
 namespace memory{
 
     int VMmanager::getIndexByPid(int pid) {

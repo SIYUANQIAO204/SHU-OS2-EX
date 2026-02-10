@@ -7,21 +7,12 @@
 
 
 
+
 # 1 "C:/OS/src/user/userManager.h" 1
-
-
-
-
-
-
+# 10 "C:/OS/src/user/userManager.h"
        
 # 1 "C:/OS/src/user/user.h" 1
-
-
-
-
-
-
+# 14 "C:/OS/src/user/user.h"
        
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 1 3
 # 69 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
@@ -6652,14 +6643,9 @@ namespace std
 # 237 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/utility" 3
 
 }
-# 9 "C:/OS/src/user/user.h" 2
+# 16 "C:/OS/src/user/user.h" 2
 # 1 "C:/OS/src/file/inode.h" 1
-
-
-
-
-
-
+# 9 "C:/OS/src/file/inode.h"
        
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cstring" 1 3
@@ -7139,7 +7125,7 @@ namespace std
 
 }
 }
-# 10 "C:/OS/src/file/inode.h" 2
+# 12 "C:/OS/src/file/inode.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/string" 1 3
 # 40 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/string" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/requires_hosted.h" 1 3
@@ -32097,7 +32083,7 @@ namespace std
     }
 
 }
-# 11 "C:/OS/src/file/inode.h" 2
+# 13 "C:/OS/src/file/inode.h" 2
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 1 3
 # 67 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 3
@@ -37057,7 +37043,7 @@ namespace std
     }
 
 }
-# 13 "C:/OS/src/file/inode.h" 2
+# 15 "C:/OS/src/file/inode.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 1 3
 # 68 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_tempbuf.h" 1 3
@@ -60479,7 +60465,7 @@ uninitialized_value_construct_n(_ExecutionPolicy&& __exec, _ForwardIterator __fi
 
 }
 # 174 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/memory" 2 3
-# 14 "C:/OS/src/file/inode.h" 2
+# 16 "C:/OS/src/file/inode.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional" 1 3
 # 40 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/version.h" 1 3
@@ -61894,8 +61880,9 @@ namespace std
 
 
 }
-# 15 "C:/OS/src/file/inode.h" 2
+# 17 "C:/OS/src/file/inode.h" 2
 # 1 "C:/OS/src/file/fsconst.h" 1
+
 
 
 
@@ -61904,13 +61891,13 @@ namespace std
 
        
 
-# 8 "C:/OS/src/file/fsconst.h"
+# 9 "C:/OS/src/file/fsconst.h"
 namespace file{
     constexpr int DIRECT_CNT = 8;
     constexpr int PTRS_PER_BLOCK = 2;
     constexpr int sysfBlockNum = 1024;
 }
-# 16 "C:/OS/src/file/inode.h" 2
+# 18 "C:/OS/src/file/inode.h" 2
 namespace file{
     enum class InodeType {
         VIRTUAL,
@@ -61992,12 +61979,13 @@ namespace file{
         virtual int addInode(std::string name, std::shared_ptr<inode> node) = 0;
         virtual std::optional<std::vector<int>> deleteInode(std::string delete_name) = 0;
         virtual std::shared_ptr<inode> openFile(std::string name) = 0;
+
         void link() {ref_count++;}
         void unlink() {ref_count++;}
         virtual void showInfo() = 0;
     };
 }
-# 10 "C:/OS/src/user/user.h" 2
+# 17 "C:/OS/src/user/user.h" 2
 
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 1 3
 # 43 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 3
@@ -64049,9 +64037,9 @@ namespace std
 # 87 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream" 3
 
 }
-# 12 "C:/OS/src/user/user.h" 2
+# 19 "C:/OS/src/user/user.h" 2
 
-# 12 "C:/OS/src/user/user.h"
+# 19 "C:/OS/src/user/user.h"
 namespace user {
 
     enum class UserClass{
@@ -64080,7 +64068,8 @@ namespace user {
         bool checkPasswd(const std::string& input) const {return input == password;}
         void changePasswd(std::string newPassWd) {password = newPassWd;}
         std::string getName() const {return userName;}
-        bool checkPremission(file::Permission premission, int owner) {
+        bool checkPremission(file::Permission premission, int owner)
+        {
             if(premission == file::Permission::PUBLIC) return true;
             else if(premission == file::Permission::PRIVATE)
             {
@@ -64105,7 +64094,7 @@ namespace user {
         }
     };
 }
-# 9 "C:/OS/src/user/userManager.h" 2
+# 12 "C:/OS/src/user/userManager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/map" 1 3
 # 64 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/map" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_tree.h" 1 3
@@ -69064,7 +69053,7 @@ namespace std
     }
 
 }
-# 10 "C:/OS/src/user/userManager.h" 2
+# 13 "C:/OS/src/user/userManager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 1 3
 # 43 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/unordered_map" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unordered_map.h" 1 3
@@ -74878,11 +74867,11 @@ namespace std
     }
 
 }
-# 11 "C:/OS/src/user/userManager.h" 2
+# 14 "C:/OS/src/user/userManager.h" 2
 
 
 
-# 13 "C:/OS/src/user/userManager.h"
+# 16 "C:/OS/src/user/userManager.h"
 namespace user {
     class userManager {
     private:
@@ -74919,11 +74908,11 @@ namespace user {
         std::shared_ptr<user> getUserByUid(int uid) const;
     };
 }
-# 6 "C:/OS/src/user/userManager.cpp" 2
+# 7 "C:/OS/src/user/userManager.cpp" 2
 
 
 
-namespace user{
+namespace user {
 
     int userManager::getIndexByUid(int uid) const {
         auto it = uidToIndex.find(uid);
@@ -74934,21 +74923,21 @@ namespace user{
         uids.emplace_back(next_uid);
         int idx = userNum;
         uidToIndex[next_uid] = idx;
-        users.push_back(std::make_unique<user>(next_uid, name, passwd , premission, "", group));
+        users.push_back(std::make_unique<user>(next_uid, name, passwd, premission, "", group));
         next_uid++;
         userNum++;
     }
 
     void userManager::deleteUser(int uid) {
         int idx = getIndexByUid(uid);
-        if(idx == -1){
-            std::cout<<"Can't find user\n";
+        if (idx == -1) {
+            std::cout << "Can't find user\n";
             return;
         }
-        uids.erase(uids.begin()+idx);
-        users.erase(users.begin()+idx);
+        uids.erase(uids.begin() + idx);
+        users.erase(users.begin() + idx);
         uidToIndex.erase(uid);
-        for (auto &kv : uidToIndex) {
+        for (auto &kv: uidToIndex) {
             if (kv.second > idx) {
                 kv.second--;
             }
@@ -74958,28 +74947,26 @@ namespace user{
 
     bool userManager::loginin(int uid, std::string passwd) const {
         int idx = getIndexByUid(uid);
-        if(idx == -1) return false;
+        if (idx == -1) return false;
         return users[idx]->checkPasswd(std::move(passwd));
     }
 
     int userManager::getUidByName(std::string name) const {
-        for(int i = 0;i < userNum;i++)
-        {
-            if(users[i]->checkName(name)) return i;
+        for (int i = 0; i < userNum; i++) {
+            if (users[i]->checkName(name)) return i;
         }
         return -1;
     }
 
     void userManager::showAllUserInfo() const {
-        for(int i = 0;i < userNum;i++)
-        {
+        for (int i = 0; i < userNum; i++) {
             users[i]->showInfo();
         }
     }
 
     void userManager::showUserInfo(int uid) const {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
             return;
         }
@@ -74988,7 +74975,7 @@ namespace user{
 
     void userManager::setGroup(int uid, int group) {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
             return;
         }
@@ -74997,7 +74984,7 @@ namespace user{
 
     void userManager::changeUserPasswd(int uid, std::string newpasswd) {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
             return;
         }
@@ -75006,7 +74993,7 @@ namespace user{
 
     int userManager::getGroup(int uid) const {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
             return -1;
         }
@@ -75015,7 +75002,7 @@ namespace user{
 
     std::string userManager::getName(int uid) const {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
             return "";
         }
@@ -75024,25 +75011,25 @@ namespace user{
 
     void userManager::changePremission(int uid, UserClass premission) {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
-            return ;
+            return;
         }
         users[idx]->changePremission(premission);
     }
 
     void userManager::changName(int uid, std::string newName) {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
-            return ;
+            return;
         }
         users[idx]->changename(newName);
     }
 
     bool userManager::checkPremission(int uid, file::Permission premission, int owner) const {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
             return false;
         }
@@ -75051,7 +75038,7 @@ namespace user{
 
     std::string userManager::getHomeDir(int uid) const {
         int idx = getIndexByUid(uid);
-        if(idx == -1) {
+        if (idx == -1) {
             std::cout << "Can't find user\n";
             return "";
         }
@@ -75060,8 +75047,7 @@ namespace user{
 
     std::shared_ptr<user> userManager::getUserByUid(int uid) const {
         int idx = getIndexByUid(uid);
-        if(idx == -1) return nullptr;
+        if (idx == -1) return nullptr;
         else return getUser(idx);
     }
-
 }

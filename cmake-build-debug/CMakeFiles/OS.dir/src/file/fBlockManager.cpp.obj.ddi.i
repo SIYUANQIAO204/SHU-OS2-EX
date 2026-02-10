@@ -7,7 +7,9 @@
 
 
 
+
 # 1 "C:/OS/src/file/fBlockManager.h" 1
+
 
 
 
@@ -21,13 +23,14 @@
 
 
 
+
        
 namespace file{
     constexpr int DIRECT_CNT = 8;
     constexpr int PTRS_PER_BLOCK = 2;
     constexpr int sysfBlockNum = 1024;
 }
-# 8 "C:/OS/src/file/fBlockManager.h" 2
+# 9 "C:/OS/src/file/fBlockManager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 1 3
 # 62 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/vector" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/requires_hosted.h" 1 3
@@ -26467,7 +26470,7 @@ namespace std
     }
 
 }
-# 9 "C:/OS/src/file/fBlockManager.h" 2
+# 10 "C:/OS/src/file/fBlockManager.h" 2
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional" 1 3
 # 40 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional" 3
 # 1 "C:/Users/qiao/Downloads/x86_64-15.1.0-release-mcf-seh-ucrt-rt_v12-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/version.h" 1 3
@@ -28434,10 +28437,10 @@ namespace std
 
 
 }
-# 10 "C:/OS/src/file/fBlockManager.h" 2
+# 11 "C:/OS/src/file/fBlockManager.h" 2
        
 
-# 11 "C:/OS/src/file/fBlockManager.h"
+# 12 "C:/OS/src/file/fBlockManager.h"
 namespace file {
 
     struct fBlock{
@@ -28464,7 +28467,7 @@ namespace file {
         void getAvailableBlock(std::vector<int> block_release);
     };
 }
-# 6 "C:/OS/src/file/fBlockManager.cpp" 2
+# 7 "C:/OS/src/file/fBlockManager.cpp" 2
 namespace file{
     std::optional<std::vector<int>> fBlockManager::read(int idx, int beg, int ed) {
         if( idx >= sysfBlockNum || ed >= PTRS_PER_BLOCK) return std::nullopt;
@@ -28478,6 +28481,8 @@ namespace file{
     }
 
     void fBlockManager::write(int idx, int beg, int ed, std::vector<int> data, int data_beg) {
+
+
         if( idx >= sysfBlockNum || ed >= PTRS_PER_BLOCK) return;
         for(int i = 0; i <= ed-beg ;i++)
         {
@@ -28520,6 +28525,7 @@ namespace file{
         available_fbock.reserve(available_fbock.size()+block_release.size());
         available_fbock.insert(available_fbock.end(),std::make_move_iterator(block_release.begin()),std::make_move_iterator(block_release.end()));
     }
+
 
 
 }
